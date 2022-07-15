@@ -1,0 +1,8 @@
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal 500 20px/24px "Roboto";
+    color: #4c5454;
+}

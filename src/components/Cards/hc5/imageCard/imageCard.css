@@ -1,0 +1,8 @@
+.hc5-card {
+  border-radius: 12px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  flex-shrink: 0;
+}

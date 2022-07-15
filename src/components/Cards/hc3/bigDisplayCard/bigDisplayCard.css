@@ -1,0 +1,83 @@
+.hc3-card {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    border-radius: 12px;
+    flex-shrink: 0;
+    transition: margin 0.3s ease;
+    will-change: margin-right;
+}
+
+.hc3-card.slide {
+    margin-right: 40%;
+}
+
+.hc3-card.hidden {
+    display: none;
+}
+
+.hc3-card-back,
+.hc3-card-front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hc3-card-back {
+    justify-content: center;
+    z-index: 500;
+    background-color: var(--color-white);
+    gap: 2.5rem;
+    padding: 1rem;
+}
+
+.hc3-card-control {
+    height: 60px;
+    font: normal 500 12px/14px "Roboto";
+    border-radius: 12px;
+    background-color: var(--color-light-grey);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.hc3-card-front {
+    justify-content: flex-end;
+    z-index: 600;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+.hc3-card-front.slide {
+    transform: translateX(40%);
+}
+
+.hc3-card-title {
+    font: normal 500 30px/35px "Roboto";
+}
+
+.hc3-card-description {
+    font: normal 400 12px/18px "Roboto";
+}
+
+.hc3-card-ctas {
+    display: flex;
+    gap: 1rem;
+}
+
+.hc3-card-cta {
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font: normal 500 14px/16px "Roboto";
+}

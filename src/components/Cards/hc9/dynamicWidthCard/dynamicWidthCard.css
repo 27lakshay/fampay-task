@@ -1,0 +1,10 @@
+.hc9-card {
+  border-radius: 12px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
+  flex-shrink: 0;
+  flex-grow: 1;
+}

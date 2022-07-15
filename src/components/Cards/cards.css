@@ -1,0 +1,22 @@
+.page-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+    background-color: var(--color-light-grey);
+    min-height: 100vh;
+}
+
+.hc-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    overflow-y: hidden;
+    padding: 0.5rem 1.25rem;
+}
+
+.page-message {
+    display: flex;
+    justify-content: center;
+}
